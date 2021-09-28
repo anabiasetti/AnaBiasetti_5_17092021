@@ -1,3 +1,19 @@
-.teddy-image {
-  width: 200px;
+.card {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.card-img-top {
+  height: auto;
+}
+footer {
+  text-align: center;
+}
+body {
+  background-color: lightgoldenrodyellow;
+}
+.jumbotron {
+  background-image: url(../assets/img/stuffedanimals_0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 27rem;
 }

@@ -21,10 +21,10 @@ function displayProductCard(teddy, row) {
   divCardBody.classList.add("card-body");
   divCard.appendChild(divCardBody);
   // Titre nom du teddy
-  const h2 = document.createElement("h2");
-  h2.textContent = teddy.name;
-  h2.classList.add("card-title");
-  divCardBody.appendChild(h2);
+  const h5 = document.createElement("h5");
+  h5.textContent = teddy.name;
+  h5.classList.add("card-title");
+  divCardBody.appendChild(h5);
   // Description
   const description = document.createElement("p");
   description.classList.add("card-text");
